@@ -10,7 +10,7 @@
     "url": "https://github.com/seanpmaxwell/Trool/issues"
   },
   "scripts": {
-    "start": "ts-node -r tsconfig-paths/register ./src/start.ts",
+    "start": "ts-node -r tsconfig-paths/register ./src",
     "test": "npm test"
   },
   "dependencies": {
