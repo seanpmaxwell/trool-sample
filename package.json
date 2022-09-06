@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "jet-logger": "^1.1.5",
-    "trool": "file:../Trool"
+    "trool-local": "file:../Trool",
+    "trool": "^2.0.5"
   },
   "devDependencies": {
     "@types/node": "^17.0.14",
