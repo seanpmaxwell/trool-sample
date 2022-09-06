@@ -34,11 +34,11 @@ function _new(
   ticket?: ITicket,
 ): IVisitor {
   return {
-    age: age ?? 0,
-    partySize: partySize ?? 1,
-    type: type ?? '',
-    discount: discount ?? 0,
-    freeTShirt: freeTShirt ?? false,
+    age: (age ?? 0),
+    partySize: (partySize ?? 1),
+    type: (type ?? ''),
+    discount: (discount ?? 0),
+    freeTShirt: (freeTShirt ?? false),
     ticket,
     addToDiscount(additionalDiscount: number) {
       this.discount += additionalDiscount;
